@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9612622420CBAE3D00C908BB /* MagicalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612622320CBAE3D00C908BB /* MagicalView.swift */; };
 		9671952220CB98C200FCB821 /* OccultView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9671952020CB98C200FCB821 /* OccultView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9612622320CBAE3D00C908BB /* MagicalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalView.swift; sourceTree = "<group>"; };
 		9671951D20CB98C200FCB821 /* OccultView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OccultView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9671952020CB98C200FCB821 /* OccultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OccultView.h; sourceTree = "<group>"; };
 		9671952120CB98C200FCB821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				9671952020CB98C200FCB821 /* OccultView.h */,
+				9612622320CBAE3D00C908BB /* MagicalView.swift */,
 				9671952120CB98C200FCB821 /* Info.plist */,
 			);
 			path = OccultView;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					9671951C20CB98C200FCB821 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9612622420CBAE3D00C908BB /* MagicalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +264,7 @@
 		9671952620CB98C200FCB821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -275,6 +281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.OccultView.OccultView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,6 +290,7 @@
 		9671952720CB98C200FCB821 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

@@ -1,0 +1,6 @@
+framework module OccultView {
+  umbrella header "OccultView-umbrella.h"
+
+  export *
+  module * { export * }
+}

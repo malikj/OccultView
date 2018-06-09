@@ -1,0 +1,16 @@
+PODS:
+  - OccultView (1.0.0)
+
+DEPENDENCIES:
+  - OccultView (from `../OccultView/`)
+
+EXTERNAL SOURCES:
+  OccultView:
+    :path: "../OccultView/"
+
+SPEC CHECKSUMS:
+  OccultView: c6b66cb3fd14860df24a71601177e9cb06954c12
+
+PODFILE CHECKSUM: 07c7d4fb51f1d7457e28056b670be35ed3cbc231
+
+COCOAPODS: 1.5.3

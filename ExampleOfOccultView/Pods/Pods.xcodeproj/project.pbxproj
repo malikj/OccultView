@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC4222A3FBC0DC567C6BFB23FDA8A77 /* Pods-ExampleOfOccultView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6AB19D6B436F97D0BD78E5F49501B /* Pods-ExampleOfOccultView-dummy.m */; };
+		40F35B5EBD580E3CB70F8C26AB5EEBA9 /* OccultView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA570D059A4AB6CF7D58B550B8C489D /* OccultView-dummy.m */; };
+		5059749056DE0742D96DC5A1C4939803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		56E17857DEF37E0D785C97AFC3CE048E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5A3635A143C45CE6DDFCA84EDFBB1D74 /* OccultView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1359C9DA79BB81208EF08976D344E177 /* OccultView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7475CF52112E28FA20EBB5ADFF7D6688 /* Pods-ExampleOfOccultView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B6B06269DE6E627AE9199C472712CC /* Pods-ExampleOfOccultView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E4DD1E3B70ABDF60EB66B194266134 /* MagicalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D7102D1EBEA9ED49B4BFE25F86F3F /* MagicalView.swift */; };
+		C11A713908F09FAA02AF17C22CCACD5F /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 3F67909E888215300D24BCE944958A08 /* Info.plist */; };
+		CD15036E21D69ACD107DF0CB6F3BD9AE /* OccultView.h in Headers */ = {isa = PBXBuildFile; fileRef = 95995661D9F0E1336856C19E0611DCC6 /* OccultView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6278376EE37506D952D008CA7252226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E8DFF10B08A001AEB99E94CF529506;
+			remoteInfo = OccultView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00502F8E4E1DE0D60942E2C577F09F4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033D8D3AFD8E40912D4B99C22534A9B7 /* Pods-ExampleOfOccultView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleOfOccultView.modulemap"; sourceTree = "<group>"; };
+		0967A71A6C040B18CF70707F212B49FD /* Pods-ExampleOfOccultView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleOfOccultView-frameworks.sh"; sourceTree = "<group>"; };
+		113DEBD51338036FD3B0946D6D9DACD3 /* OccultView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OccultView-prefix.pch"; sourceTree = "<group>"; };
+		1359C9DA79BB81208EF08976D344E177 /* OccultView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OccultView-umbrella.h"; sourceTree = "<group>"; };
+		13E3823AA204670047C4743E61694E35 /* OccultView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OccultView.xcconfig; sourceTree = "<group>"; };
+		2EE56B0BE2C8B591539E82EEDE2030D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA570D059A4AB6CF7D58B550B8C489D /* OccultView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OccultView-dummy.m"; sourceTree = "<group>"; };
+		3F67909E888215300D24BCE944958A08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = OccultView/Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E9D506B061D4C89CA28B966DF391F37 /* Pods-ExampleOfOccultView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleOfOccultView.debug.xcconfig"; sourceTree = "<group>"; };
+		5F6E2D845DF058FEB2580B2D7C392CE8 /* OccultView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OccultView.modulemap; sourceTree = "<group>"; };
+		72B6B06269DE6E627AE9199C472712CC /* Pods-ExampleOfOccultView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleOfOccultView-umbrella.h"; sourceTree = "<group>"; };
+		79F6AB19D6B436F97D0BD78E5F49501B /* Pods-ExampleOfOccultView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleOfOccultView-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95995661D9F0E1336856C19E0611DCC6 /* OccultView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OccultView.h; path = OccultView/OccultView.h; sourceTree = "<group>"; };
+		A5D267B05CB66EE80A8A5A7C2D5E0AD8 /* Pods-ExampleOfOccultView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleOfOccultView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8EA6F7401CFD9592C27103373DEE19B /* Pods_ExampleOfOccultView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleOfOccultView.framework; path = "Pods-ExampleOfOccultView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF04E00E70FCDB8D784283B5A318C0AF /* Pods-ExampleOfOccultView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleOfOccultView.release.xcconfig"; sourceTree = "<group>"; };
+		C20D7102D1EBEA9ED49B4BFE25F86F3F /* MagicalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MagicalView.swift; path = OccultView/MagicalView.swift; sourceTree = "<group>"; };
+		C27C87E4E51726F2F282028B4690AC8B /* Pods-ExampleOfOccultView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleOfOccultView-acknowledgements.plist"; sourceTree = "<group>"; };
+		E514E840CEE4D9606F91BEB7F28917D8 /* Pods-ExampleOfOccultView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleOfOccultView-resources.sh"; sourceTree = "<group>"; };
+		EE9313298D487FCF7A34ABDB6673F54F /* OccultView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OccultView.framework; path = OccultView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F576D60D7E21BEB3BEA75581C47BAAD3 /* OccultView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OccultView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B4DA4C97695A070036E66442872CB13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E17857DEF37E0D785C97AFC3CE048E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81CB62917D03DDF30B28D111186AABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5059749056DE0742D96DC5A1C4939803 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087F0FFC31DD013F85A8B719ED9DDF20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9313298D487FCF7A34ABDB6673F54F /* OccultView.framework */,
+				A8EA6F7401CFD9592C27103373DEE19B /* Pods_ExampleOfOccultView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB029A65D520D9C75492CC9B4461970 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C617122D0EE18E7552362ECCFBFC6B /* Pods-ExampleOfOccultView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		762B90DC496AC7473E0D6A446CC9FB21 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDE181EBC2E880413033EEDB13EBBE7B /* OccultView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		76C617122D0EE18E7552362ECCFBFC6B /* Pods-ExampleOfOccultView */ = {
+			isa = PBXGroup;
+			children = (
+				00502F8E4E1DE0D60942E2C577F09F4F /* Info.plist */,
+				033D8D3AFD8E40912D4B99C22534A9B7 /* Pods-ExampleOfOccultView.modulemap */,
+				A5D267B05CB66EE80A8A5A7C2D5E0AD8 /* Pods-ExampleOfOccultView-acknowledgements.markdown */,
+				C27C87E4E51726F2F282028B4690AC8B /* Pods-ExampleOfOccultView-acknowledgements.plist */,
+				79F6AB19D6B436F97D0BD78E5F49501B /* Pods-ExampleOfOccultView-dummy.m */,
+				0967A71A6C040B18CF70707F212B49FD /* Pods-ExampleOfOccultView-frameworks.sh */,
+				E514E840CEE4D9606F91BEB7F28917D8 /* Pods-ExampleOfOccultView-resources.sh */,
+				72B6B06269DE6E627AE9199C472712CC /* Pods-ExampleOfOccultView-umbrella.h */,
+				5E9D506B061D4C89CA28B966DF391F37 /* Pods-ExampleOfOccultView.debug.xcconfig */,
+				BF04E00E70FCDB8D784283B5A318C0AF /* Pods-ExampleOfOccultView.release.xcconfig */,
+			);
+			name = "Pods-ExampleOfOccultView";
+			path = "Target Support Files/Pods-ExampleOfOccultView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				762B90DC496AC7473E0D6A446CC9FB21 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				087F0FFC31DD013F85A8B719ED9DDF20 /* Products */,
+				3DB029A65D520D9C75492CC9B4461970 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD8C3E376445B804E4FF12CD17280D7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F576D60D7E21BEB3BEA75581C47BAAD3 /* OccultView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B8839062536076EECFB069A15AB52939 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE56B0BE2C8B591539E82EEDE2030D0 /* Info.plist */,
+				5F6E2D845DF058FEB2580B2D7C392CE8 /* OccultView.modulemap */,
+				13E3823AA204670047C4743E61694E35 /* OccultView.xcconfig */,
+				3CA570D059A4AB6CF7D58B550B8C489D /* OccultView-dummy.m */,
+				113DEBD51338036FD3B0946D6D9DACD3 /* OccultView-prefix.pch */,
+				1359C9DA79BB81208EF08976D344E177 /* OccultView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../ExampleOfOccultView/Pods/Target Support Files/OccultView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDE181EBC2E880413033EEDB13EBBE7B /* OccultView */ = {
+			isa = PBXGroup;
+			children = (
+				3F67909E888215300D24BCE944958A08 /* Info.plist */,
+				C20D7102D1EBEA9ED49B4BFE25F86F3F /* MagicalView.swift */,
+				95995661D9F0E1336856C19E0611DCC6 /* OccultView.h */,
+				8BD8C3E376445B804E4FF12CD17280D7 /* Pod */,
+				B8839062536076EECFB069A15AB52939 /* Support Files */,
+			);
+			name = OccultView;
+			path = ../../OccultView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		109F6E979E0DDB2FC7D88CF08AFE0050 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3635A143C45CE6DDFCA84EDFBB1D74 /* OccultView-umbrella.h in Headers */,
+				CD15036E21D69ACD107DF0CB6F3BD9AE /* OccultView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69CF1AC049439C0C945A7FF6FA1BA65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7475CF52112E28FA20EBB5ADFF7D6688 /* Pods-ExampleOfOccultView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16C7936DD5F0FD600A1AD96316044757 /* Pods-ExampleOfOccultView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F6B5FAD0ADA9D33B7C16CC7BDAD24B /* Build configuration list for PBXNativeTarget "Pods-ExampleOfOccultView" */;
+			buildPhases = (
+				04817DC92668BFAE85C797C0CA09E339 /* Sources */,
+				5B4DA4C97695A070036E66442872CB13 /* Frameworks */,
+				B69CF1AC049439C0C945A7FF6FA1BA65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6371F779F0B8EB284CA865CB9E033E /* PBXTargetDependency */,
+			);
+			name = "Pods-ExampleOfOccultView";
+			productName = "Pods-ExampleOfOccultView";
+			productReference = A8EA6F7401CFD9592C27103373DEE19B /* Pods_ExampleOfOccultView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3E8DFF10B08A001AEB99E94CF529506 /* OccultView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145A92C9A0158EA4A730217E2EB50866 /* Build configuration list for PBXNativeTarget "OccultView" */;
+			buildPhases = (
+				5F5BD131A2E6B47751F22C7494EA0A4E /* Sources */,
+				C81CB62917D03DDF30B28D111186AABD /* Frameworks */,
+				109F6E979E0DDB2FC7D88CF08AFE0050 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OccultView;
+			productName = OccultView;
+			productReference = EE9313298D487FCF7A34ABDB6673F54F /* OccultView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 087F0FFC31DD013F85A8B719ED9DDF20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3E8DFF10B08A001AEB99E94CF529506 /* OccultView */,
+				16C7936DD5F0FD600A1AD96316044757 /* Pods-ExampleOfOccultView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04817DC92668BFAE85C797C0CA09E339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC4222A3FBC0DC567C6BFB23FDA8A77 /* Pods-ExampleOfOccultView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5BD131A2E6B47751F22C7494EA0A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11A713908F09FAA02AF17C22CCACD5F /* Info.plist in Sources */,
+				79E4DD1E3B70ABDF60EB66B194266134 /* MagicalView.swift in Sources */,
+				40F35B5EBD580E3CB70F8C26AB5EEBA9 /* OccultView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A6371F779F0B8EB284CA865CB9E033E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OccultView;
+			target = A3E8DFF10B08A001AEB99E94CF529506 /* OccultView */;
+			targetProxy = D6278376EE37506D952D008CA7252226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		895E8576404350C91E2CA9191843E0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E3823AA204670047C4743E61694E35 /* OccultView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OccultView/OccultView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OccultView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OccultView/OccultView.modulemap";
+				PRODUCT_MODULE_NAME = OccultView;
+				PRODUCT_NAME = OccultView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2A87D1E57AE76824A9460CEF916F90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9D506B061D4C89CA28B966DF391F37 /* Pods-ExampleOfOccultView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleOfOccultView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleOfOccultView/Pods-ExampleOfOccultView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7075311C15E71F4959F82EE378EF90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF04E00E70FCDB8D784283B5A318C0AF /* Pods-ExampleOfOccultView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleOfOccultView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleOfOccultView/Pods-ExampleOfOccultView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8426F82D3004E0A2499502498DBA4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E3823AA204670047C4743E61694E35 /* OccultView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OccultView/OccultView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OccultView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OccultView/OccultView.modulemap";
+				PRODUCT_MODULE_NAME = OccultView;
+				PRODUCT_NAME = OccultView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		145A92C9A0158EA4A730217E2EB50866 /* Build configuration list for PBXNativeTarget "OccultView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895E8576404350C91E2CA9191843E0EB /* Debug */,
+				B8426F82D3004E0A2499502498DBA4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F6B5FAD0ADA9D33B7C16CC7BDAD24B /* Build configuration list for PBXNativeTarget "Pods-ExampleOfOccultView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A87D1E57AE76824A9460CEF916F90B /* Debug */,
+				B7075311C15E71F4959F82EE378EF90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

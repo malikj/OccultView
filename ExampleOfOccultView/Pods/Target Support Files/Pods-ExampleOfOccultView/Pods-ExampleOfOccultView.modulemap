@@ -1,0 +1,6 @@
+framework module Pods_ExampleOfOccultView {
+  umbrella header "Pods-ExampleOfOccultView-umbrella.h"
+
+  export *
+  module * { export * }
+}
