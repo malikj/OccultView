@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9612622420CBAE3D00C908BB /* MagicalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612622320CBAE3D00C908BB /* MagicalView.swift */; };
+		9612622620CBB08300C908BB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612622520CBB08300C908BB /* Service.swift */; };
 		9671952220CB98C200FCB821 /* OccultView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9671952020CB98C200FCB821 /* OccultView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9612622320CBAE3D00C908BB /* MagicalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalView.swift; sourceTree = "<group>"; };
+		9612622520CBB08300C908BB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		9671951D20CB98C200FCB821 /* OccultView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OccultView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9671952020CB98C200FCB821 /* OccultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OccultView.h; sourceTree = "<group>"; };
 		9671952120CB98C200FCB821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			children = (
 				9671952020CB98C200FCB821 /* OccultView.h */,
 				9612622320CBAE3D00C908BB /* MagicalView.swift */,
+				9612622520CBB08300C908BB /* Service.swift */,
 				9671952120CB98C200FCB821 /* Info.plist */,
 			);
 			path = OccultView;
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9612622420CBAE3D00C908BB /* MagicalView.swift in Sources */,
+				9612622620CBB08300C908BB /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
