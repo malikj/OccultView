@@ -6,6 +6,6 @@ target 'ExampleOfOccultView' do
   use_frameworks!
 
   # Pods for ExampleOfOccultView
-pod 'OccultView',:path => "../OccultView/"
+  pod 'OccultView',:path => "../OccultView/"
 
 end

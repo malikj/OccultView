@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3E8DFF10B08A001AEB99E94CF529506"
+               BlueprintIdentifier = "627241A8AA6723AE1990E28066149929"
                BlueprintName = "OccultView"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "OccultView.framework">

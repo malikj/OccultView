@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0EC4222A3FBC0DC567C6BFB23FDA8A77 /* Pods-ExampleOfOccultView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6AB19D6B436F97D0BD78E5F49501B /* Pods-ExampleOfOccultView-dummy.m */; };
-		40F35B5EBD580E3CB70F8C26AB5EEBA9 /* OccultView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA570D059A4AB6CF7D58B550B8C489D /* OccultView-dummy.m */; };
-		5059749056DE0742D96DC5A1C4939803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		18CFF658227BC1D8F0FADB97ECCEEFAC /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = F020964FC95A4D5D97E3A9FCAACB9ABE /* Info.plist */; };
 		56E17857DEF37E0D785C97AFC3CE048E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		5A3635A143C45CE6DDFCA84EDFBB1D74 /* OccultView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1359C9DA79BB81208EF08976D344E177 /* OccultView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		653695D095823452FAB3240EBDF32272 /* OccultView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86367A6ABE223C416EC7B9D0D1953F4C /* OccultView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71AEC5E89B40DAAC85CA939042137FA7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E41BB803F26685B251761432A65ABB /* Service.swift */; };
+		71E6462D7F5C09F23849A5D8B5188958 /* MagicalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069208EBCACC3485C8AB4C2106337A2 /* MagicalView.swift */; };
 		7475CF52112E28FA20EBB5ADFF7D6688 /* Pods-ExampleOfOccultView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B6B06269DE6E627AE9199C472712CC /* Pods-ExampleOfOccultView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79E4DD1E3B70ABDF60EB66B194266134 /* MagicalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D7102D1EBEA9ED49B4BFE25F86F3F /* MagicalView.swift */; };
-		C11A713908F09FAA02AF17C22CCACD5F /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 3F67909E888215300D24BCE944958A08 /* Info.plist */; };
-		CD15036E21D69ACD107DF0CB6F3BD9AE /* OccultView.h in Headers */ = {isa = PBXBuildFile; fileRef = 95995661D9F0E1336856C19E0611DCC6 /* OccultView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F358EE648BC82D04C11CB4CD4C70D4 /* OccultView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0BA9041EF9082B19B2500F41947969 /* OccultView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEB75768BAC01C6DAC4EB61F7710CD53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FF391A5BDF35F64C425FD1A52FBD9C80 /* OccultView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F923AB9F0A1FCDE7774630CE397D46BB /* OccultView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +24,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A3E8DFF10B08A001AEB99E94CF529506;
+			remoteGlobalIDString = 627241A8AA6723AE1990E28066149929;
 			remoteInfo = OccultView;
 		};
 /* End PBXContainerItemProxy section */
@@ -32,27 +33,28 @@
 		00502F8E4E1DE0D60942E2C577F09F4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		033D8D3AFD8E40912D4B99C22534A9B7 /* Pods-ExampleOfOccultView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleOfOccultView.modulemap"; sourceTree = "<group>"; };
 		0967A71A6C040B18CF70707F212B49FD /* Pods-ExampleOfOccultView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleOfOccultView-frameworks.sh"; sourceTree = "<group>"; };
-		113DEBD51338036FD3B0946D6D9DACD3 /* OccultView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OccultView-prefix.pch"; sourceTree = "<group>"; };
-		1359C9DA79BB81208EF08976D344E177 /* OccultView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OccultView-umbrella.h"; sourceTree = "<group>"; };
-		13E3823AA204670047C4743E61694E35 /* OccultView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OccultView.xcconfig; sourceTree = "<group>"; };
-		2EE56B0BE2C8B591539E82EEDE2030D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CA570D059A4AB6CF7D58B550B8C489D /* OccultView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OccultView-dummy.m"; sourceTree = "<group>"; };
-		3F67909E888215300D24BCE944958A08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = OccultView/Info.plist; sourceTree = "<group>"; };
+		2C0A20ADE22D1F3BAA8212610F3F1D93 /* OccultView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OccultView.modulemap; sourceTree = "<group>"; };
+		2E9A20E9EE0EE9D6C436F4A9E7F80045 /* OccultView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OccultView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34E41BB803F26685B251761432A65ABB /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = OccultView/Service.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5E9D506B061D4C89CA28B966DF391F37 /* Pods-ExampleOfOccultView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleOfOccultView.debug.xcconfig"; sourceTree = "<group>"; };
-		5F6E2D845DF058FEB2580B2D7C392CE8 /* OccultView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OccultView.modulemap; sourceTree = "<group>"; };
 		72B6B06269DE6E627AE9199C472712CC /* Pods-ExampleOfOccultView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleOfOccultView-umbrella.h"; sourceTree = "<group>"; };
 		79F6AB19D6B436F97D0BD78E5F49501B /* Pods-ExampleOfOccultView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleOfOccultView-dummy.m"; sourceTree = "<group>"; };
+		8069208EBCACC3485C8AB4C2106337A2 /* MagicalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MagicalView.swift; path = OccultView/MagicalView.swift; sourceTree = "<group>"; };
+		86367A6ABE223C416EC7B9D0D1953F4C /* OccultView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OccultView.h; path = OccultView/OccultView.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95995661D9F0E1336856C19E0611DCC6 /* OccultView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OccultView.h; path = OccultView/OccultView.h; sourceTree = "<group>"; };
+		A3645F078227D5F8CDDA1ACB245B9278 /* OccultView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OccultView.xcconfig; sourceTree = "<group>"; };
 		A5D267B05CB66EE80A8A5A7C2D5E0AD8 /* Pods-ExampleOfOccultView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleOfOccultView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A8EA6F7401CFD9592C27103373DEE19B /* Pods_ExampleOfOccultView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleOfOccultView.framework; path = "Pods-ExampleOfOccultView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF88DAE4BD1CE2F11EE089A5C284E10 /* OccultView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OccultView-prefix.pch"; sourceTree = "<group>"; };
 		BF04E00E70FCDB8D784283B5A318C0AF /* Pods-ExampleOfOccultView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleOfOccultView.release.xcconfig"; sourceTree = "<group>"; };
-		C20D7102D1EBEA9ED49B4BFE25F86F3F /* MagicalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MagicalView.swift; path = OccultView/MagicalView.swift; sourceTree = "<group>"; };
 		C27C87E4E51726F2F282028B4690AC8B /* Pods-ExampleOfOccultView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleOfOccultView-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD0622F9FD1626F9B256C29FA97D1CDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0BA9041EF9082B19B2500F41947969 /* OccultView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OccultView-umbrella.h"; sourceTree = "<group>"; };
 		E514E840CEE4D9606F91BEB7F28917D8 /* Pods-ExampleOfOccultView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleOfOccultView-resources.sh"; sourceTree = "<group>"; };
 		EE9313298D487FCF7A34ABDB6673F54F /* OccultView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OccultView.framework; path = OccultView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F576D60D7E21BEB3BEA75581C47BAAD3 /* OccultView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OccultView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F020964FC95A4D5D97E3A9FCAACB9ABE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = OccultView/Info.plist; sourceTree = "<group>"; };
+		F923AB9F0A1FCDE7774630CE397D46BB /* OccultView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OccultView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +66,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C81CB62917D03DDF30B28D111186AABD /* Frameworks */ = {
+		EDD9DC8F717098DCAFFA264780D84351 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5059749056DE0742D96DC5A1C4939803 /* Foundation.framework in Frameworks */,
+				DEB75768BAC01C6DAC4EB61F7710CD53 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,12 +102,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		762B90DC496AC7473E0D6A446CC9FB21 /* Development Pods */ = {
+		71D2DE979BC329B56107F803F741DF03 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CDE181EBC2E880413033EEDB13EBBE7B /* OccultView */,
+				CD0622F9FD1626F9B256C29FA97D1CDD /* Info.plist */,
+				2C0A20ADE22D1F3BAA8212610F3F1D93 /* OccultView.modulemap */,
+				A3645F078227D5F8CDDA1ACB245B9278 /* OccultView.xcconfig */,
+				F923AB9F0A1FCDE7774630CE397D46BB /* OccultView-dummy.m */,
+				ACF88DAE4BD1CE2F11EE089A5C284E10 /* OccultView-prefix.pch */,
+				CE0BA9041EF9082B19B2500F41947969 /* OccultView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../ExampleOfOccultView/Pods/Target Support Files/OccultView";
 			sourceTree = "<group>";
 		};
 		76C617122D0EE18E7552362ECCFBFC6B /* Pods-ExampleOfOccultView */ = {
@@ -130,33 +138,41 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				762B90DC496AC7473E0D6A446CC9FB21 /* Development Pods */,
+				B777489483579D32820A37C015CEA5EC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				087F0FFC31DD013F85A8B719ED9DDF20 /* Products */,
 				3DB029A65D520D9C75492CC9B4461970 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8BD8C3E376445B804E4FF12CD17280D7 /* Pod */ = {
+		95ECCDB40BFAE700F2D8D7B89291DD99 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F576D60D7E21BEB3BEA75581C47BAAD3 /* OccultView.podspec */,
+				2E9A20E9EE0EE9D6C436F4A9E7F80045 /* OccultView.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		B8839062536076EECFB069A15AB52939 /* Support Files */ = {
+		9EEB63D9E9EC82AA93A9E6822F93932F /* OccultView */ = {
 			isa = PBXGroup;
 			children = (
-				2EE56B0BE2C8B591539E82EEDE2030D0 /* Info.plist */,
-				5F6E2D845DF058FEB2580B2D7C392CE8 /* OccultView.modulemap */,
-				13E3823AA204670047C4743E61694E35 /* OccultView.xcconfig */,
-				3CA570D059A4AB6CF7D58B550B8C489D /* OccultView-dummy.m */,
-				113DEBD51338036FD3B0946D6D9DACD3 /* OccultView-prefix.pch */,
-				1359C9DA79BB81208EF08976D344E177 /* OccultView-umbrella.h */,
+				F020964FC95A4D5D97E3A9FCAACB9ABE /* Info.plist */,
+				8069208EBCACC3485C8AB4C2106337A2 /* MagicalView.swift */,
+				86367A6ABE223C416EC7B9D0D1953F4C /* OccultView.h */,
+				34E41BB803F26685B251761432A65ABB /* Service.swift */,
+				95ECCDB40BFAE700F2D8D7B89291DD99 /* Pod */,
+				71D2DE979BC329B56107F803F741DF03 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../ExampleOfOccultView/Pods/Target Support Files/OccultView";
+			name = OccultView;
+			path = ../../OccultView;
+			sourceTree = "<group>";
+		};
+		B777489483579D32820A37C015CEA5EC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EEB63D9E9EC82AA93A9E6822F93932F /* OccultView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -167,28 +183,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CDE181EBC2E880413033EEDB13EBBE7B /* OccultView */ = {
-			isa = PBXGroup;
-			children = (
-				3F67909E888215300D24BCE944958A08 /* Info.plist */,
-				C20D7102D1EBEA9ED49B4BFE25F86F3F /* MagicalView.swift */,
-				95995661D9F0E1336856C19E0611DCC6 /* OccultView.h */,
-				8BD8C3E376445B804E4FF12CD17280D7 /* Pod */,
-				B8839062536076EECFB069A15AB52939 /* Support Files */,
-			);
-			name = OccultView;
-			path = ../../OccultView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		109F6E979E0DDB2FC7D88CF08AFE0050 /* Headers */ = {
+		4D65845A62C9E39761E2E518B419A382 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3635A143C45CE6DDFCA84EDFBB1D74 /* OccultView-umbrella.h in Headers */,
-				CD15036E21D69ACD107DF0CB6F3BD9AE /* OccultView.h in Headers */,
+				74F358EE648BC82D04C11CB4CD4C70D4 /* OccultView-umbrella.h in Headers */,
+				653695D095823452FAB3240EBDF32272 /* OccultView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,13 +224,13 @@
 			productReference = A8EA6F7401CFD9592C27103373DEE19B /* Pods_ExampleOfOccultView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A3E8DFF10B08A001AEB99E94CF529506 /* OccultView */ = {
+		627241A8AA6723AE1990E28066149929 /* OccultView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 145A92C9A0158EA4A730217E2EB50866 /* Build configuration list for PBXNativeTarget "OccultView" */;
+			buildConfigurationList = 9FD0D29360302F6959BCDE35FF65B24E /* Build configuration list for PBXNativeTarget "OccultView" */;
 			buildPhases = (
-				5F5BD131A2E6B47751F22C7494EA0A4E /* Sources */,
-				C81CB62917D03DDF30B28D111186AABD /* Frameworks */,
-				109F6E979E0DDB2FC7D88CF08AFE0050 /* Headers */,
+				95AA9E513E5A0E744FDF70D506AAB199 /* Sources */,
+				EDD9DC8F717098DCAFFA264780D84351 /* Frameworks */,
+				4D65845A62C9E39761E2E518B419A382 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -259,7 +262,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3E8DFF10B08A001AEB99E94CF529506 /* OccultView */,
+				627241A8AA6723AE1990E28066149929 /* OccultView */,
 				16C7936DD5F0FD600A1AD96316044757 /* Pods-ExampleOfOccultView */,
 			);
 		};
@@ -274,13 +277,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F5BD131A2E6B47751F22C7494EA0A4E /* Sources */ = {
+		95AA9E513E5A0E744FDF70D506AAB199 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11A713908F09FAA02AF17C22CCACD5F /* Info.plist in Sources */,
-				79E4DD1E3B70ABDF60EB66B194266134 /* MagicalView.swift in Sources */,
-				40F35B5EBD580E3CB70F8C26AB5EEBA9 /* OccultView-dummy.m in Sources */,
+				18CFF658227BC1D8F0FADB97ECCEEFAC /* Info.plist in Sources */,
+				71E6462D7F5C09F23849A5D8B5188958 /* MagicalView.swift in Sources */,
+				FF391A5BDF35F64C425FD1A52FBD9C80 /* OccultView-dummy.m in Sources */,
+				71AEC5E89B40DAAC85CA939042137FA7 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +294,7 @@
 		1A6371F779F0B8EB284CA865CB9E033E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OccultView;
-			target = A3E8DFF10B08A001AEB99E94CF529506 /* OccultView */;
+			target = 627241A8AA6723AE1990E28066149929 /* OccultView */;
 			targetProxy = D6278376EE37506D952D008CA7252226 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,9 +363,9 @@
 			};
 			name = Debug;
 		};
-		895E8576404350C91E2CA9191843E0EB /* Debug */ = {
+		9B7A48BE3B512A68BDD9B074835F7D21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13E3823AA204670047C4743E61694E35 /* OccultView.xcconfig */;
+			baseConfigurationReference = A3645F078227D5F8CDDA1ACB245B9278 /* OccultView.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -388,13 +392,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -534,9 +539,9 @@
 			};
 			name = Release;
 		};
-		B8426F82D3004E0A2499502498DBA4B4 /* Release */ = {
+		FF43AC1A68152B0AE440C917693A35A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13E3823AA204670047C4743E61694E35 /* OccultView.xcconfig */;
+			baseConfigurationReference = A3645F078227D5F8CDDA1ACB245B9278 /* OccultView.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -563,32 +568,31 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		145A92C9A0158EA4A730217E2EB50866 /* Build configuration list for PBXNativeTarget "OccultView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				895E8576404350C91E2CA9191843E0EB /* Debug */,
-				B8426F82D3004E0A2499502498DBA4B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
 				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD0D29360302F6959BCDE35FF65B24E /* Build configuration list for PBXNativeTarget "OccultView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43AC1A68152B0AE440C917693A35A0 /* Debug */,
+				9B7A48BE3B512A68BDD9B074835F7D21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
